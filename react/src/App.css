@@ -1,0 +1,160 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* Reset default styles and apply a font */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* Create a container for the main content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+.header {
+  background-color: #0077b5;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+/* Style navigation links */
+.navbar a {
+  text-decoration: none;
+  color: #0077b5;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+/* Style a primary button */
+.btn-primary {
+  background-color: #0077b5;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Style a secondary button */
+.btn-secondary {
+  background-color: #fff;
+  color: #0077b5;
+  border: 2px solid #0077b5;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Create a card-like container for content */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Style headings */
+h1, h2, h3 {
+  color: #333;
+}
+
+/* Style text */
+p {
+  color: #666;
+}
+
+/* Style links */
+a {
+  color: #0077b5;
+  text-decoration: none;
+}
+
+/* Style a profile picture */
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+/* Create a two-column layout for content */
+.two-column {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Style the left column */
+.left-column {
+  flex: 1;
+}
+
+/* Style the right column */
+.right-column {
+  flex: 2;
+  margin-left: 20px;
+}
+
+/* Style a user profile section */
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Add additional styles as needed */
