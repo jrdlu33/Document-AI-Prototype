@@ -1,3 +1,9 @@
+# Initial code to setup the backend infrastructure! Bear with me as this is still a bit rough. We will: 
+# (1) import the necessary framework classes from Flask and Llamaindex 
+# (2) initialize_index() by processing all the already-uploaded content in our local 'documents' folder
+# (3) utilize insert_into_index() and upload_file() to take any uploaded file, break it into text nodes (i.e. "earnings were $200 million"), and store these nodes as indexes
+# (4) Define our API server parameters using Flask. Initial routes include the default hello world ("/"), taking a question and querying GPT ("/query"), and processing uploads ("/upload")
+# Questions and feedback are highly appreciated! Feel free to message me for anything
 
 import os
 from flask import Flask, request, jsonify, make_response
