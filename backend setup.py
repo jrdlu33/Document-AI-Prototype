@@ -8,8 +8,8 @@ app = Flask(__name__)
 CORS(app)
 
 
-# NOTE: for local testing only, do NOT deploy with your key hardcoded
-os.environ['OPENAI_API_KEY'] = "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"
+# NOTE: For local deployments only
+os.environ['OPENAI_API_KEY'] = "Insert your OpenAI Key here"
 
 index = None
 index_dir = "./index"
@@ -69,22 +69,8 @@ def upload_file():
 
 @app.route("/")
 def home():
-    return "abc!!"
+    return "Hello World!"
 
-"""
-    This function handles GET requests to the '/query' endpoint of the Flask app.
-    It retrieves a query text from the URL parameters, queries the global index using the query text,
-    and returns the response as a string.
-
-    Args:
-        None
-
-    Returns:
-        A string containing the response from the query engine.
-
-    Raises:
-        None
-"""
 @app.route("/query", methods=["GET"])
 def query_index():
     global index
